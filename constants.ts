@@ -1,4 +1,3 @@
-
 import { CarModel } from './types';
 
 export const carModels: CarModel[] = [
@@ -6,7 +5,7 @@ export const carModels: CarModel[] = [
     id: 1,
     name: "Veyro Aura",
     tagline: "Sentience in Motion",
-    image: "/public/veyro_aura.png",
+    image: "public/veyro_aura.png",
     specs: {
       speed: "1.9s",
       topSpeed: "280 mph",
@@ -18,7 +17,7 @@ export const carModels: CarModel[] = [
     id: 2,
     name: "Veyro Apex",
     tagline: "Conquer the Horizon",
-    image: "/public/veyero_apex.png",
+    image: "public/veyero_apex.png",
     specs: {
       speed: "2.1s",
       topSpeed: "260 mph",
@@ -30,7 +29,7 @@ export const carModels: CarModel[] = [
     id: 3,
     name: "Veyro Ghost",
     tagline: "Silence is Power",
-    image: "/public/perfo3.png",
+    image: "public/perfo3.png",
     specs: {
       speed: "2.5s",
       topSpeed: "240 mph",
@@ -42,7 +41,7 @@ export const carModels: CarModel[] = [
     id: 4,
     name: "Veyro Nova",
     tagline: "Ignite the Stars",
-    image: "/public/perfo4.png",
+    image: "public/perfo4.png",
     specs: {
       speed: "2.3s",
       topSpeed: "270 mph",
